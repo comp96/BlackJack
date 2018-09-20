@@ -115,7 +115,7 @@ public class BlackJackGameFile {
         dealer.addCard(newDeck.getCard(commands[2]));
         dealer.addCard(newDeck.getCard(commands[3]));
         index = 4;
-        dealer.print(true);
+        dealer.print(false);
         you.print(true);
 
         printPlayerData();
